@@ -1,6 +1,6 @@
 # Pump It Up: Data Mining the Water Table for Tanzanian Water Crisis
-* Non-technical slide presentation:
-* Non-technical video presentation:
+* Non-technical slide presentation:https://docs.google.com/presentation/d/1G7arQpIteHzjAdwzKlTUQDZ00-CMDMqLHXytT274Uu4/edit?usp=sharing
+* Non-technical video presentation:https://drive.google.com/file/d/1ric6lTB1kCHWBcqOcWpq2qfWaabJkqRW/view?usp=sharing
 ----------------------------------------------------------
 ## Predicting water pump functionality  for water pumps in Tanzania
 ----------------------------------------------------------
