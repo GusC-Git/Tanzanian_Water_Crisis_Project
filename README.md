@@ -77,7 +77,7 @@ pub_meet_vals = np.round(iterimputer.fit_transform(trainingdata[columns_for_impu
 # EDA
 After having cleaned the data, I decided to answer some questions that I thought were interesting in getting more familiar with this dataset.
 ### Q1 What is the classs imbalance, if there is one?
-![](images/class_imbalance.PNG)
+![](images/Class_imbalance.PNG)
 
 #### Conclusion:
 Most definitely there is class imbalance! There is significantly more functional and non functional pumps than there are functional that need repair. I will have to address this during the modeling. If the data is too imbalanced, the model could miss classification of the minority class almost entirely.
