@@ -77,7 +77,7 @@ pub_meet_vals = np.round(iterimputer.fit_transform(trainingdata[columns_for_impu
 # EDA
 After having cleaned the data, I decided to answer some questions that I thought were interesting in getting more familiar with this dataset.
 ### Q1 What is the classs imbalance, if there is one?
----
+
 ![](images/class_imbalance.PNG)
 
 #### Conclusion:
@@ -135,7 +135,7 @@ Models performed slightly worse on the test set when fit to the SMOTE-d data, ho
 Looks like the most important features within the Random Forest model were the longitude and latitude coordinates. Days since record and since construction proved to be important as well. Certain categories such as quantity-succifient proved to be more useful when we Smoted our dataset and rose in importance.
 ## Final Score
 
-![](images/forest_score_.png)
+![](images/forest_score_.PNG)
 
 Final testing results gave me a 79.69% Accuracy
 # Final Remarks
