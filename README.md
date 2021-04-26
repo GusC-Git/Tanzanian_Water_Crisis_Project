@@ -108,7 +108,7 @@ Rainwater harvesting appears to be the most seasonal of all quantity amounts. Sp
 ![](images/status_group_per_water_quantity.PNG)
 #### Conclusion pt2:
 I'm lumping this in with the previous question. The majority of the pumps that are able to provide enough water are also functional. Almost every pump that has now gone dry is classified as non functional. This gives insight into why certain pumps, specifically these, could possible not be working--if a pump has gone dry, it can be considered non functional then. A priority here would be returning to functional and giving the needed repairs to the pumps that provide enough water.
-### Q6 How does Extraction Type relate to Water Quantity?
+### Relationship Between Water Extraction Type to Water Quanity.
 
 ![](images/water_quantper_extraction_type.PNG)
 
@@ -136,6 +136,6 @@ Looks like the most important features within the Random Forest model were the l
 
 ![](images/forest_score_.PNG)
 
-Final testing results gave me a 79.69% Accuracy
+Final testing results gave me a 79.9% Accuracy
 # Final Remarks
 This project was part of a competition hosted by Taarifa. The goal was to predict as many of the testset water pumps correctly as possible in efforts to improve the Water Crisis in Tanzania. After finishing my models, I used the Random Forest Classifier trained on the SMOTE transformed training data to predict the operating status of the waterpoints on the test set. Dataset and competition can be found at [https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/]
