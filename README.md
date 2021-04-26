@@ -76,7 +76,7 @@ pub_meet_vals = np.round(iterimputer.fit_transform(trainingdata[columns_for_impu
 ```
 # EDA
 After having cleaned the data, I decided to answer some questions that I thought were interesting in getting more familiar with this dataset.
-### Q1 What is the classs imbalance, if there is one?
+### Identifying Class Imbalance within Dataset
 ![](images/Class_imbalance.PNG)
 
 #### Conclusion:
