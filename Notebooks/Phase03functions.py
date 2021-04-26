@@ -99,10 +99,10 @@ def group_into_contribution_size(df, column, group_size_bounds = (500, 1000), na
         if rcount >= 1000:
             continue
             
-        elif rcount < Med_size_bounds[1] and rcount >= Med_size_bounds[0]:
+        elif rcount < group_size_bounds[1] and rcount >= group_size_bounds[0]:
             new_vals[index] = "{}".format(name)
             
-        elif rcount < Med_size_bounds[0]:
+        elif rcount < group_size_bounds[0]:
             new_vals[index] = "{}".format(name_2)
             
     df[column].replace(new_vals, inplace=True)
