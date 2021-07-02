@@ -81,25 +81,25 @@ After having cleaned the data, I decided to answer some questions that I thought
 
 #### Conclusion:
 Most definitely there is class imbalance! There is significantly more functional and non functional pumps than there are functional that need repair. I will have to address this during the modeling. If the data is too imbalanced, the model could miss classification of the minority class almost entirely.
-### Q2 What is the distribution of Pump Functionality in each Basin?
+### Distribution of Pump Functionality in each Basin
 
 ![](images/count_status_group_per_basin.PNG)
 
 #### Conclusion
 Pump functionality and number of pumps available varies greatly across each basin. Some locations dwarf others in numbers of functional pumps. From this graph we can see that two basins in particular appear to be possibly underserved and in more need for water aid and pump repair than others. Those basins are Lake Rukwa and Ruvuma / Southern Coast. Both basins have more non functioning pumps than they do functioning and are the only two basins to reflect this characteristic.
-### Q3 What is the Population in each Basin?
+### Population in each Basin
 
 ![](images/pop_per_basin.PNG)
 
 #### Conclusion:
 When this graph is cross-referenced with the one above, we can inference that the Tanzanian Water Crisis is possibly strong in Ruvuma/Southern Coast since the location is in second to last for most number of functional pumps. Where possible, I would advise a focus repairing the pumps that can be repaired within that basin to increase the water access of the people living there.
-### Q4 What is the relationship between Source Type and Pump Functionality?
+### Relationship between Source Type and Pump Functionality
 
 ![](images/status_group_per_source_type.PNG)
 
 #### Conclusion:
 Shallow well and borehole sourced water pumps about evenly match in ratios of functioning pumps to non functioning/need repair pumps. Since both are groundwater methods, it appears that groundwater sources are liable to have less functioning pumps in relation to the number non functioning pumps. Very little water is gathered through other means such as dams, rainwater catchement. It also appears that groundwater sources such as wells and boreholes are less likely to have wells that function but need repair.
-### Q5 What is the relationship between Source Type and Water Quantity?
+### Relationship between Source Type and Water Quantity
 
 ![](images/water_quantper_source_type.PNG)
 
@@ -108,7 +108,7 @@ Rainwater harvesting appears to be the most seasonal of all quantity amounts. Sp
 ![](images/status_group_per_water_quantity.PNG)
 #### Conclusion pt2:
 I'm lumping this in with the previous question. The majority of the pumps that are able to provide enough water are also functional. Almost every pump that has now gone dry is classified as non functional. This gives insight into why certain pumps, specifically these, could possible not be working--if a pump has gone dry, it can be considered non functional then. A priority here would be returning to functional and giving the needed repairs to the pumps that provide enough water.
-### Relationship Between Water Extraction Type to Water Quanity.
+### Relationship Between Water Extraction Type to Water Quanity
 
 ![](images/water_quantper_extraction_type.PNG)
 
